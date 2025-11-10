@@ -31,7 +31,7 @@ export class SigninComponent {
     this.authService.signIn(this.loginForm.value).subscribe({
       next: (res) => {
         console.log('Login success:', res);
-        this.router.navigate(['/dashboard']); 
+        this.router.navigate(['/dashboard']); // تعديل للصفحة اللي عايز توصلها بعد تسجيل الدخول
       },
       error: (err) => {
         console.error('Login failed:', err);

@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+input {
+  height: 45px;
+}
+
+button {
+  height: 45px;
+  font-weight: bold;
+}
+
+.text-danger {
+  font-size: 0.85rem;
+}
